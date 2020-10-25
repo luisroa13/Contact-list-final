@@ -1,0 +1,25 @@
+<div class="cont">
+    <div class="Form-cont">
+        <h1>Update Contact</h1>
+    
+       
+    <form action="/users/update/contact/" method="POST">
+        <label for="cfn"> First Name:>
+            <input type="hidden" name="id" value={{_id}}>
+          <input type="text" name="fn" value={{fname}} required>
+            </label>
+            <label for="cln"> Last Name:
+                <input type="text" name="ln"value={{lname}} required>
+                </label>  
+        <label for="cemail"> Email:
+        <input type="email" name="mail" value={{email}} required>
+        </label>
+        <label for="cnumber"> Contact Number:
+            <input type="text" name="number" value={{number}} required>
+            </label>
+            <input type="submit" name="sendc" value="Update">
+            
+    </form>
+   
+    </div>
+    </div>

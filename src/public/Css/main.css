@@ -1,0 +1,89 @@
+body{
+
+	background: rgb(58,122,180);
+	background: linear-gradient(90deg, rgba(58,122,180,1) 0%, rgba(29,199,253,1) 50%, rgba(69,252,244,1) 100%);
+}
+
+.cont{
+
+top: 500px;
+width: 100%;
+border-radius:5px;
+border:1px solid #b7b9bd;
+max-width: 300px;
+margin: auto;
+height: auto;
+max-height: 600px;
+background: #fff; 
+padding: 20px; 
+}
+.Form-head
+{
+	width: 100%;
+	
+}
+ h1{
+
+	text-align: center;
+	color: #3569d5;
+	
+}
+.Form-cont{
+
+    max-width: 250px;
+    width: 100%;
+    margin: auto;
+}
+
+.Form-cont label
+{
+
+	color: #3569d5;
+}
+.Form-cont p
+{
+
+	color: #3569d5;
+}
+
+.Form-cont a {
+text-decoration: none;
+padding: 10px;
+display: block;
+color: #3569d5;
+text-align: center;
+
+}
+.Form-cont input[type="button"],
+.Form-cont input[type="submit"]{
+    width:100%;
+    
+   padding: 10px;
+	margin-top:32px;
+	border:1px solid #3569d5;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#3569d5;
+} 
+
+.Form-cont input[type="text"],
+.Form-cont input[type="password"],
+.Form-cont input[type="email"]{
+	width:100%;
+	padding: 8px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+
+.Form-cont input[type="submit"]:hover
+{
+	background-color:#0b45ba;
+}
+.Form-cont input[type="button"]:hover
+{
+	background-color:#0b45ba;
+}
